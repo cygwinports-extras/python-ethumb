@@ -2,12 +2,11 @@ inherit python
 
 NAME="python-ethumb"
 VERSION=1.7.0
-RELEASE=1
+RELEASE=2
 CATEGORY="Python"
 SUMMARY="Python bindings for Ethumb library"
 HOMEPAGE="http://www.enlightenment.org/"
 SRC_URI="http://download.enlightenment.org/releases/BINDINGS/python/${P}.tar.bz2"
-PATCH_URI="01-python26.patch"
 
 src_compile() {
 	cd ${S}
